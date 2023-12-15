@@ -1,0 +1,47 @@
+.content {
+padding: 110px 255px;
+
+}
+h1 {
+    
+}
+header {
+    padding: 1px
+}
+.fontsi {
+    font-size: 15px;
+}
+.fontfa {
+    font-family: 'Open Sans'
+}
+.header-2 {
+    
+    box-shadow: 0px 2px 20px 0px rgba(26, 17, 20, 0.10);
+}
+.contact {
+    width: 705px;
+    height: 600px;
+    flex-shrink: 0;
+    background: #E5F8FD;
+}
+.footer {
+padding: 0px 255px;
+
+}
+@media (max-width: 767px) {
+    .header {
+      display: none;
+    }
+    .about {
+      display: flex;
+      justify-content: center;
+    }
+    .img-contact {
+        display: flow;
+    }
+    /* Điều chỉnh CSS cho phần header thứ hai */
+    .d-flex.justify-content-between.header-2 {
+      padding: 0 15px;
+    }
+  }
+  
